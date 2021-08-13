@@ -1,0 +1,13 @@
+version: "3"
+services: 
+  web:
+    build: .
+    container_name: "django"
+    working_dir: "/usr/src/web"
+    ports: 
+      - "8000:8000"
+    volumes: 
+      - "../web:/usr/src/web"
+    stdin_open: true
+    tty: true
+    command: "/bin/bash"
