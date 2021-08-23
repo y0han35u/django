@@ -1,4 +1,4 @@
-# django
+# django Template
 Just another Django project.
 
 ## Usage
